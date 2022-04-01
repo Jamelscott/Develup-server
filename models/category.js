@@ -9,7 +9,7 @@ const cardSchema = mongoose.Schema({
   answer: {
     type: String,
     required: true,
-    minLength: 5
+    minLength: 1
   },
 });
 
