@@ -9,7 +9,7 @@ const user = require('../../models/user')
 // GET Show all users
 router.get('/', async (req, res) => {
   const foundUser = await db.User.find({})
-  console.log(foundUser)
+  console.log('users' + foundUser)
   res.json(foundUser)
 })
 
